@@ -28,3 +28,20 @@ nav ul li a:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(38, 67, 197);
 }
+header {
+  color: rgb(255, 255, 255);
+  background-image: url(./fon.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 35px;
+}
+header h1 {
+  margin: 0;
+}
+header p {
+  font-size: 20px;
+}
